@@ -1050,7 +1050,6 @@
                         <li><a href="#">App Patient</a></li>
                         <li><a href="#">App Pharmacien</a></li>
                         <li><a href="#">App Coursier</a></li>
-                        <li><a href="#">Dashboard Admin</a></li>
                     </ul>
                 </div>
 
