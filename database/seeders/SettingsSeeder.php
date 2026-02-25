@@ -30,7 +30,7 @@ class SettingsSeeder extends Seeder
             ['key' => 'app_name', 'value' => 'DR-PHARMA', 'type' => 'string'],
             ['key' => 'app_version', 'value' => '1.0.0', 'type' => 'string'],
             ['key' => 'support_email', 'value' => 'support@drlpharma.com', 'type' => 'string'],
-            ['key' => 'support_phone', 'value' => '+2250700000000', 'type' => 'string'],
+            ['key' => 'support_phone', 'value' => '+2250701159572', 'type' => 'string'],
         ];
 
         foreach ($settings as $setting) {

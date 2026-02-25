@@ -102,7 +102,7 @@ Route::get('/', function () {
         // Footer
         'footer_description' => Setting::get('landing_footer_description', 'La plateforme santé digitale N°1 en Côte d\'Ivoire.'),
         'footer_email' => Setting::get('landing_footer_email', 'contact@drlpharma.com'),
-        'footer_phone' => Setting::get('landing_footer_phone', '+225 07 00 00 00 00'),
+        'footer_phone' => Setting::get('landing_footer_phone', '+225 07 01 159 572'),
         'footer_address' => Setting::get('landing_footer_address', 'Abidjan, Côte d\'Ivoire'),
         'footer_facebook_url' => Setting::get('landing_footer_facebook_url', '#'),
         'footer_instagram_url' => Setting::get('landing_footer_instagram_url', '#'),
