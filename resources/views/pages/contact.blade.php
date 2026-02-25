@@ -435,7 +435,8 @@
                     </div>
                     <h3>Téléphone</h3>
                     <p>Lun - Ven, 8h - 18h</p>
-                    <a href="tel:+2250779000000" class="card-link">+225 07 79 00 00 00</a>
+                    <a href="tel:+2250701159572" class="card-link">+225 07 01 159 572</a>
+                    <a href="tel:+2252722367192" class="card-link">+225 27 22 367 192</a>
                 </div>
                 <div class="contact-card">
                     <div class="contact-icon">

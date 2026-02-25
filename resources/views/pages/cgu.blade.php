@@ -326,7 +326,8 @@
                 <p><strong>Forme juridique :</strong> Société à Responsabilité Limitée (SARL)</p>
                 <p><strong>RCCM :</strong> CI-ABJ-03-2018-B13-33505</p>
                 <p><strong>Siège social :</strong> Abidjan, Koumassi Remblais – République de Côte d'Ivoire</p>
-                <p><strong>Email de contact :</strong> <a href="mailto:contact@drlpharma.com">contact@drlpharma.com</a></p>
+                <p><strong>Email de contact :</strong> <a href="mailto:contact@drlpharma.com">contact@drlpharma.com</a>
+                </p>
             </div>
 
             <h2 id="objet">2. Objet de l'application</h2>
