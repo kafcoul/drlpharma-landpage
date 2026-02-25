@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Politique de confidentialité DR-PHARMA — Protection de vos données personnelles.">
-    <title>Politique de confidentialité — DR-PHARMA</title>
+    <meta name="description" content="Politique de Confidentialité de l'application DR PHARMA — DRL NEGOCE SARL.">
+    <title>Politique de Confidentialité — DR PHARMA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -37,20 +37,23 @@
         .page-hero { background: linear-gradient(135deg, var(--brand-50), var(--brand-100)); padding: 64px 0 48px; text-align: center; }
         .page-hero h1 { font-size: clamp(28px, 5vw, 42px); font-weight: 900; color: var(--gray-900); margin-bottom: 12px; }
         .page-hero p { font-size: 18px; color: var(--gray-500); max-width: 560px; margin: 0 auto; }
-        .page-hero .date { font-size: 14px; color: var(--gray-400); margin-top: 12px; }
 
         /* Content */
         .legal-content { padding: 64px 0 96px; }
         .legal-content h2 { font-size: 22px; font-weight: 800; color: var(--gray-900); margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--brand-100); }
         .legal-content h2:first-child { margin-top: 0; }
-        .legal-content h3 { font-size: 17px; font-weight: 700; color: var(--gray-800); margin: 24px 0 8px; }
         .legal-content p { color: var(--gray-600); margin-bottom: 16px; line-height: 1.8; font-size: 15px; }
         .legal-content ul { margin: 8px 0 16px 24px; list-style: disc; }
         .legal-content ul li { color: var(--gray-600); margin-bottom: 6px; font-size: 15px; line-height: 1.7; }
+        .legal-content strong { color: var(--gray-800); }
         .legal-content a { color: var(--brand-600); font-weight: 600; }
         .legal-content a:hover { text-decoration: underline; }
 
-        /* Sidebar TOC */
+        /* Info card */
+        .info-card { background: var(--gray-50); border: 1px solid var(--gray-100); border-radius: 16px; padding: 24px; margin-bottom: 16px; }
+        .info-card p { margin-bottom: 4px; font-size: 14px; }
+
+        /* TOC */
         .toc { background: var(--gray-50); border: 1px solid var(--gray-100); border-radius: 16px; padding: 24px; margin-bottom: 40px; }
         .toc h4 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--gray-400); margin-bottom: 12px; }
         .toc ol { list-style: decimal; margin-left: 20px; }
@@ -81,9 +84,8 @@
 
     <section class="page-hero">
         <div class="container">
-            <h1>Politique de confidentialité</h1>
-            <p>Comment nous protégeons et utilisons vos données personnelles.</p>
-            <div class="date">Dernière mise à jour : {{ date('d/m/Y') }}</div>
+            <h1>Politique de Confidentialité</h1>
+            <p>Application DR PHARMA</p>
         </div>
     </section>
 
@@ -93,120 +95,92 @@
             <div class="toc">
                 <h4>Sommaire</h4>
                 <ol>
+                    <li><a href="#introduction">Introduction</a></li>
                     <li><a href="#collecte">Données collectées</a></li>
                     <li><a href="#utilisation">Utilisation des données</a></li>
                     <li><a href="#partage">Partage des données</a></li>
-                    <li><a href="#securite">Sécurité</a></li>
-                    <li><a href="#conservation">Durée de conservation</a></li>
-                    <li><a href="#droits">Vos droits</a></li>
-                    <li><a href="#cookies">Cookies</a></li>
-                    <li><a href="#modifications">Modifications</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
+                    <li><a href="#stockage">Stockage et sécurité</a></li>
+                    <li><a href="#droits">Droits des utilisateurs</a></li>
+                    <li><a href="#cookies">Cookies et technologies similaires</a></li>
+                    <li><a href="#modification">Modification de la politique</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ol>
             </div>
 
-            <h2 id="collecte">1. Données collectées</h2>
-            <p>Dans le cadre de l'utilisation de la plateforme DR-PHARMA (applications mobiles et site web), nous collectons les données suivantes :</p>
-            <h3>Données d'identité</h3>
+            <h2 id="introduction">1. Introduction</h2>
+            <p>DRL NEGOCE SARL, société éditrice de l'application DR PHARMA, s'engage à protéger la vie privée de ses utilisateurs.</p>
+            <p>La présente Politique de Confidentialité décrit les pratiques relatives à la collecte, l'utilisation et la protection des données personnelles.</p>
+
+            <h2 id="collecte">2. Données collectées</h2>
+            <p>Dans le cadre de l'utilisation de l'application, les données suivantes peuvent être collectées :</p>
             <ul>
                 <li>Nom et prénom</li>
                 <li>Numéro de téléphone</li>
                 <li>Adresse email</li>
-                <li>Photo de profil (optionnelle)</li>
-            </ul>
-            <h3>Données de localisation</h3>
-            <ul>
                 <li>Adresse de livraison</li>
-                <li>Géolocalisation en temps réel (uniquement pendant l'utilisation active de l'application, avec votre consentement)</li>
-            </ul>
-            <h3>Données de santé</h3>
-            <ul>
-                <li>Photos d'ordonnances médicales envoyées via l'application</li>
-                <li>Historique des commandes de médicaments</li>
-            </ul>
-            <h3>Données de paiement</h3>
-            <ul>
-                <li>Numéro de téléphone Mobile Money</li>
-                <li>Historique des transactions (montants, dates)</li>
-            </ul>
-            <p>Nous ne conservons jamais vos données de carte bancaire complètes. Celles-ci sont traitées par nos prestataires de paiement certifiés (CinetPay).</p>
-
-            <h2 id="utilisation">2. Utilisation des données</h2>
-            <p>Vos données personnelles sont utilisées pour :</p>
-            <ul>
-                <li>Créer et gérer votre compte utilisateur</li>
-                <li>Traiter et livrer vos commandes de médicaments</li>
-                <li>Permettre le suivi GPS de la livraison</li>
-                <li>Traiter les paiements et les remboursements</li>
-                <li>Vous envoyer des notifications sur l'état de vos commandes</li>
-                <li>Améliorer nos services et l'expérience utilisateur</li>
-                <li>Assurer la sécurité de la plateforme</li>
-                <li>Répondre à vos demandes de support</li>
+                <li>Données de localisation (géolocalisation)</li>
+                <li>Historique des commandes</li>
+                <li>Informations de paiement</li>
             </ul>
 
-            <h2 id="partage">3. Partage des données</h2>
-            <p>Nous ne vendons jamais vos données personnelles. Vos informations peuvent être partagées avec :</p>
+            <h2 id="utilisation">3. Utilisation des données</h2>
+            <p>Les données sont utilisées pour les finalités suivantes :</p>
             <ul>
-                <li><strong>Les pharmacies partenaires</strong> — pour le traitement de votre commande (nom, adresse de livraison, ordonnance)</li>
-                <li><strong>Les coursiers</strong> — pour la livraison (nom, adresse de livraison, numéro de téléphone)</li>
-                <li><strong>Les prestataires de paiement</strong> — pour le traitement sécurisé des transactions</li>
-                <li><strong>Les autorités compétentes</strong> — en cas d'obligation légale</li>
+                <li>Gestion des commandes et des livraisons</li>
+                <li>Communication avec l'utilisateur (suivi de commande, notifications)</li>
+                <li>Amélioration des services de l'application</li>
+                <li>Prévention de la fraude et sécurité du service</li>
             </ul>
 
-            <h2 id="securite">4. Sécurité</h2>
-            <p>Nous mettons en œuvre des mesures techniques et organisationnelles pour protéger vos données :</p>
+            <h2 id="partage">4. Partage des données</h2>
+            <p>Les données personnelles peuvent être partagées avec :</p>
             <ul>
-                <li>Chiffrement de toutes les communications (HTTPS/TLS)</li>
-                <li>Chiffrement des données sensibles stockées</li>
-                <li>Authentification sécurisée avec token et vérification OTP</li>
-                <li>Accès restreint aux données personnelles au sein de notre équipe</li>
-                <li>Audits de sécurité réguliers</li>
+                <li>Les pharmacies partenaires (pour la préparation des commandes)</li>
+                <li>Les livreurs partenaires (pour la gestion de la livraison)</li>
+                <li>Les prestataires techniques (hébergement, services de paiement)</li>
             </ul>
+            <p>Aucune donnée personnelle n'est vendue à des tiers à des fins commerciales.</p>
 
-            <h2 id="conservation">5. Durée de conservation</h2>
-            <p>Vos données sont conservées pendant la durée de votre utilisation du service, puis :</p>
+            <h2 id="stockage">5. Stockage et sécurité</h2>
+            <p>DRL NEGOCE SARL met en œuvre les mesures techniques et organisationnelles appropriées pour garantir la sécurité et la confidentialité des données collectées.</p>
+            <p>Les données sont hébergées sur des serveurs sécurisés et accessibles uniquement au personnel autorisé.</p>
+
+            <h2 id="droits">6. Droits des utilisateurs</h2>
+            <p>Conformément à la réglementation applicable, chaque utilisateur dispose des droits suivants :</p>
             <ul>
-                <li><strong>Données de compte</strong> — supprimées sous 30 jours après demande de suppression</li>
-                <li><strong>Données de commande</strong> — conservées 5 ans (obligation comptable)</li>
-                <li><strong>Ordonnances</strong> — supprimées 1 an après la commande</li>
-                <li><strong>Données de géolocalisation</strong> — supprimées 30 jours après la livraison</li>
+                <li>Droit d'accès à ses données personnelles</li>
+                <li>Droit de rectification en cas d'erreur</li>
+                <li>Droit de suppression de son compte et de ses données</li>
+                <li>Droit d'opposition au traitement de ses données</li>
             </ul>
+            <p>Pour exercer ces droits, l'utilisateur peut contacter DRL NEGOCE SARL à l'adresse ci-dessous.</p>
+            <p>L'utilisateur peut également saisir l'ARTCI (Autorité de Régulation des Télécommunications/TIC de Côte d'Ivoire) en cas de litige relatif à la gestion de ses données personnelles.</p>
 
-            <h2 id="droits">6. Vos droits</h2>
-            <p>Conformément à la loi ivoirienne relative à la protection des données personnelles, vous disposez des droits suivants :</p>
+            <h2 id="cookies">7. Cookies et technologies similaires</h2>
+            <p>L'application peut utiliser des cookies ou technologies similaires pour :</p>
             <ul>
-                <li><strong>Droit d'accès</strong> — consulter les données que nous détenons sur vous</li>
-                <li><strong>Droit de rectification</strong> — corriger vos informations personnelles</li>
-                <li><strong>Droit de suppression</strong> — demander l'effacement de vos données</li>
-                <li><strong>Droit d'opposition</strong> — vous opposer à certains traitements</li>
-                <li><strong>Droit à la portabilité</strong> — recevoir vos données dans un format standard</li>
+                <li>améliorer l'expérience utilisateur,</li>
+                <li>mesurer l'audience,</li>
+                <li>proposer un service personnalisé.</li>
             </ul>
-            <p>Pour exercer ces droits, contactez-nous à <a href="mailto:contact@drlpharma.com">contact@drlpharma.com</a>.</p>
+            <p>L'utilisateur peut gérer ses préférences depuis les paramètres de son appareil.</p>
 
-            <h2 id="cookies">7. Cookies</h2>
-            <p>Notre site web utilise des cookies essentiels au fonctionnement du service. Nous n'utilisons pas de cookies publicitaires. Les cookies techniques permettent :</p>
-            <ul>
-                <li>Le maintien de votre session de navigation</li>
-                <li>La mémorisation de vos préférences</li>
-                <li>La sécurité du site</li>
-            </ul>
+            <h2 id="modification">8. Modification de la politique</h2>
+            <p>DRL NEGOCE SARL se réserve le droit de modifier la présente Politique de Confidentialité à tout moment.</p>
+            <p>Les utilisateurs seront informés de toute mise à jour via l'application.</p>
 
-            <h2 id="modifications">8. Modifications</h2>
-            <p>Nous pouvons mettre à jour cette politique de confidentialité. En cas de modification significative, vous serez informé par notification dans l'application ou par email. La date de dernière mise à jour est indiquée en haut de cette page.</p>
-
-            <h2 id="contact-section">9. Contact</h2>
-            <p>Pour toute question relative à la protection de vos données personnelles :</p>
-            <ul>
-                <li>Email : <a href="mailto:contact@drlpharma.com">contact@drlpharma.com</a></li>
-                <li>Téléphone : +225 07 79 00 00 00</li>
-                <li>Adresse : Abidjan, Côte d'Ivoire</li>
-            </ul>
+            <h2 id="contact">9. Contact</h2>
+            <p>Pour toute question relative à la protection de vos données personnelles, vous pouvez nous contacter :</p>
+            <div class="info-card">
+                <p><strong>Adresse :</strong> COCODY ANGRE terminus 81/82, en face de la banque UBA</p>
+                <p><strong>Email :</strong> <a href="mailto:contact@drlpharma.com">contact@drlpharma.com</a></p>
+            </div>
 
         </div>
     </section>
 
     <footer class="footer-mini">
-        <div class="container">© {{ date('Y') }} DR-PHARMA. Tous droits réservés.</div>
+        <div class="container">© {{ date('Y') }} DR PHARMA — DRL NEGOCE SARL. Tous droits réservés.</div>
     </footer>
 </body>
 </html>

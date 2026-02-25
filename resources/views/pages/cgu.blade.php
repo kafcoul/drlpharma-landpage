@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conditions Générales d'Utilisation DR-PHARMA.">
-    <title>Conditions Générales d'Utilisation — DR-PHARMA</title>
+    <meta name="description" content="Conditions Générales d'Utilisation de l'application DR PHARMA — DRL NEGOCE SARL.">
+    <title>Conditions Générales d'Utilisation — DR PHARMA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -37,18 +37,21 @@
         .page-hero { background: linear-gradient(135deg, var(--brand-50), var(--brand-100)); padding: 64px 0 48px; text-align: center; }
         .page-hero h1 { font-size: clamp(28px, 5vw, 42px); font-weight: 900; color: var(--gray-900); margin-bottom: 12px; }
         .page-hero p { font-size: 18px; color: var(--gray-500); max-width: 560px; margin: 0 auto; }
-        .page-hero .date { font-size: 14px; color: var(--gray-400); margin-top: 12px; }
 
         /* Content */
         .legal-content { padding: 64px 0 96px; }
         .legal-content h2 { font-size: 22px; font-weight: 800; color: var(--gray-900); margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--brand-100); }
         .legal-content h2:first-child { margin-top: 0; }
-        .legal-content h3 { font-size: 17px; font-weight: 700; color: var(--gray-800); margin: 24px 0 8px; }
         .legal-content p { color: var(--gray-600); margin-bottom: 16px; line-height: 1.8; font-size: 15px; }
         .legal-content ul { margin: 8px 0 16px 24px; list-style: disc; }
         .legal-content ul li { color: var(--gray-600); margin-bottom: 6px; font-size: 15px; line-height: 1.7; }
+        .legal-content strong { color: var(--gray-800); }
         .legal-content a { color: var(--brand-600); font-weight: 600; }
         .legal-content a:hover { text-decoration: underline; }
+
+        /* Info card */
+        .info-card { background: var(--gray-50); border: 1px solid var(--gray-100); border-radius: 16px; padding: 24px; margin-bottom: 16px; }
+        .info-card p { margin-bottom: 4px; font-size: 14px; }
 
         /* TOC */
         .toc { background: var(--gray-50); border: 1px solid var(--gray-100); border-radius: 16px; padding: 24px; margin-bottom: 40px; }
@@ -82,8 +85,7 @@
     <section class="page-hero">
         <div class="container">
             <h1>Conditions Générales d'Utilisation</h1>
-            <p>Les règles qui régissent l'utilisation de la plateforme DR-PHARMA.</p>
-            <div class="date">Dernière mise à jour : {{ date('d/m/Y') }}</div>
+            <p>Application DR PHARMA</p>
         </div>
     </section>
 
@@ -93,112 +95,116 @@
             <div class="toc">
                 <h4>Sommaire</h4>
                 <ol>
-                    <li><a href="#objet">Objet</a></li>
-                    <li><a href="#definitions">Définitions</a></li>
-                    <li><a href="#inscription">Inscription et compte</a></li>
-                    <li><a href="#services">Services proposés</a></li>
-                    <li><a href="#commandes">Commandes et livraisons</a></li>
-                    <li><a href="#paiements">Paiements</a></li>
-                    <li><a href="#obligations">Obligations de l'utilisateur</a></li>
-                    <li><a href="#responsabilite">Responsabilité</a></li>
-                    <li><a href="#propriete">Propriété intellectuelle</a></li>
-                    <li><a href="#resiliation">Résiliation</a></li>
-                    <li><a href="#litiges">Litiges</a></li>
-                    <li><a href="#cgu-contact">Contact</a></li>
+                    <li><a href="#informations">Informations légales</a></li>
+                    <li><a href="#objet">Objet de l'application</a></li>
+                    <li><a href="#acceptation">Acceptation des conditions</a></li>
+                    <li><a href="#acces">Conditions d'accès</a></li>
+                    <li><a href="#compte">Création et gestion du compte</a></li>
+                    <li><a href="#commande">Commande de médicaments</a></li>
+                    <li><a href="#livraison">Livraison</a></li>
+                    <li><a href="#prix">Prix et paiement</a></li>
+                    <li><a href="#responsabilites">Responsabilités et avertissement médical</a></li>
+                    <li><a href="#suspension">Suspension ou suppression de compte</a></li>
+                    <li><a href="#disponibilite">Disponibilité du service</a></li>
+                    <li><a href="#modification">Modification des conditions</a></li>
+                    <li><a href="#droit">Droit applicable et juridiction</a></li>
                 </ol>
             </div>
 
-            <h2 id="objet">1. Objet</h2>
-            <p>Les présentes Conditions Générales d'Utilisation (ci-après « CGU ») ont pour objet de définir les modalités et conditions dans lesquelles la société DR-PHARMA met à disposition ses services via ses applications mobiles (Patient, Pharmacien, Coursier) et son site web <a href="https://drlpharma.com">drlpharma.com</a>.</p>
-            <p>L'utilisation de la plateforme implique l'acceptation pleine et entière des présentes CGU.</p>
+            <h2 id="informations">1. Informations légales</h2>
+            <p>L'application DR PHARMA est éditée par :</p>
+            <div class="info-card">
+                <p><strong>Raison sociale :</strong> DRL NEGOCE SARL</p>
+                <p><strong>Forme juridique :</strong> Société à Responsabilité Limitée (SARL)</p>
+                <p><strong>RCCM :</strong> CI-ABJ-03-2018-B13-33505</p>
+                <p><strong>Siège social :</strong> Abidjan, Koumassi Remblais – République de Côte d'Ivoire</p>
+                <p><strong>Email de contact :</strong> <a href="mailto:drlnegoce@gmail.com">drlnegoce@gmail.com</a></p>
+            </div>
 
-            <h2 id="definitions">2. Définitions</h2>
+            <h2 id="objet">2. Objet de l'application</h2>
+            <p>DR PHARMA est une application mobile permettant aux utilisateurs de :</p>
             <ul>
-                <li><strong>Plateforme</strong> — l'ensemble des applications mobiles et du site web DR-PHARMA</li>
-                <li><strong>Utilisateur / Patient</strong> — toute personne physique utilisant l'application Patient pour commander des médicaments</li>
-                <li><strong>Pharmacie partenaire</strong> — officine de pharmacie inscrite et validée sur la plateforme</li>
-                <li><strong>Coursier</strong> — livreur indépendant inscrit et validé sur la plateforme</li>
-                <li><strong>Commande</strong> — demande d'achat de médicaments passée par un utilisateur via l'application</li>
+                <li>commander des médicaments depuis leur domicile,</li>
+                <li>auprès de pharmacies partenaires légalement agréées à Abidjan,</li>
+                <li>et de se faire livrer par des livreurs partenaires.</li>
             </ul>
+            <p>DRL NEGOCE SARL agit exclusivement en tant qu'intermédiaire technologique et ne vend pas directement de médicaments.</p>
 
-            <h2 id="inscription">3. Inscription et compte</h2>
-            <h3>3.1 Conditions d'inscription</h3>
-            <p>L'inscription est ouverte à toute personne physique majeure (18 ans) résidant en Côte d'Ivoire. L'utilisateur s'engage à fournir des informations exactes et à jour.</p>
-            <h3>3.2 Vérification</h3>
-            <p>Un numéro de téléphone valide est requis pour la vérification par code OTP. DR-PHARMA se réserve le droit de demander des justificatifs d'identité complémentaires.</p>
-            <h3>3.3 Sécurité du compte</h3>
-            <p>L'utilisateur est responsable de la confidentialité de ses identifiants. Toute activité réalisée depuis son compte est réputée effectuée par lui. En cas d'utilisation non autorisée, l'utilisateur doit contacter immédiatement notre support.</p>
+            <h2 id="acceptation">3. Acceptation des conditions</h2>
+            <p>Toute utilisation de l'application implique l'acceptation pleine et entière des présentes Conditions Générales d'Utilisation.</p>
+            <p>En cas de désaccord, l'utilisateur doit cesser immédiatement l'utilisation de l'application.</p>
 
-            <h2 id="services">4. Services proposés</h2>
-            <p>DR-PHARMA propose une plateforme de mise en relation entre :</p>
+            <h2 id="acces">4. Conditions d'accès</h2>
+            <p>L'application est accessible :</p>
             <ul>
-                <li>Les <strong>patients</strong> souhaitant commander des médicaments</li>
-                <li>Les <strong>pharmacies partenaires</strong> détenant les médicaments</li>
-                <li>Les <strong>coursiers</strong> assurant la livraison</li>
+                <li>aux personnes âgées d'au moins 18 ans,</li>
+                <li>disposant de la capacité juridique,</li>
+                <li>résidant en République de Côte d'Ivoire.</li>
             </ul>
-            <p>DR-PHARMA agit en tant qu'intermédiaire technologique. Les médicaments sont vendus et délivrés par les pharmacies partenaires, sous leur responsabilité pharmaceutique.</p>
+            <p>La création d'un compte utilisateur est nécessaire pour accéder aux services.</p>
 
-            <h2 id="commandes">5. Commandes et livraisons</h2>
-            <h3>5.1 Passation de commande</h3>
-            <p>L'utilisateur peut commander des médicaments en les recherchant par nom ou en envoyant une photo de son ordonnance. Certains médicaments nécessitent obligatoirement une ordonnance valide.</p>
-            <h3>5.2 Confirmation</h3>
-            <p>La commande est confirmée une fois acceptée par la pharmacie partenaire et le paiement validé. L'utilisateur reçoit une confirmation par notification.</p>
-            <h3>5.3 Livraison</h3>
-            <p>La livraison est effectuée par un coursier indépendant. Le délai estimé est de 45 minutes en moyenne mais peut varier selon les conditions. DR-PHARMA ne peut garantir un délai exact.</p>
-            <h3>5.4 Annulation</h3>
-            <p>L'annulation est possible tant que la pharmacie n'a pas commencé la préparation de la commande. Au-delà, des frais d'annulation peuvent s'appliquer.</p>
-
-            <h2 id="paiements">6. Paiements</h2>
-            <h3>6.1 Moyens de paiement</h3>
-            <p>Les moyens de paiement acceptés sont : Orange Money, MTN Mobile Money, Moov Money, Wave, cartes bancaires (Visa/Mastercard) et paiement à la livraison.</p>
-            <h3>6.2 Prix</h3>
-            <p>Les prix des médicaments sont fixés par les pharmacies partenaires conformément à la réglementation en vigueur. Des frais de livraison et de service peuvent s'appliquer et sont clairement affichés avant validation de la commande.</p>
-            <h3>6.3 Remboursements</h3>
-            <p>En cas de problème avéré (produit non conforme, erreur de commande), un remboursement peut être effectué sous 24 à 48 heures après validation par notre service client.</p>
-
-            <h2 id="obligations">7. Obligations de l'utilisateur</h2>
+            <h2 id="compte">5. Création et gestion du compte</h2>
             <p>L'utilisateur s'engage à :</p>
             <ul>
-                <li>Utiliser la plateforme de manière loyale et conforme à son objet</li>
-                <li>Fournir des informations exactes, notamment l'adresse de livraison</li>
-                <li>Ne pas envoyer de fausses ordonnances</li>
-                <li>Ne pas utiliser la plateforme à des fins illégales</li>
-                <li>Respecter les coursiers et le personnel des pharmacies</li>
-                <li>Être disponible pour réceptionner sa commande à l'adresse indiquée</li>
+                <li>fournir des informations exactes, complètes et à jour,</li>
+                <li>préserver la confidentialité de ses identifiants,</li>
+                <li>informer DR PHARMA de toute utilisation non autorisée.</li>
             </ul>
+            <p>L'utilisateur est seul responsable de l'utilisation de son compte.</p>
 
-            <h2 id="responsabilite">8. Responsabilité</h2>
-            <p>DR-PHARMA s'efforce d'assurer le bon fonctionnement de la plateforme mais ne peut être tenu responsable :</p>
+            <h2 id="commande">6. Commande de médicaments</h2>
             <ul>
-                <li>Des interruptions temporaires de service (maintenance, panne)</li>
-                <li>De l'indisponibilité d'un médicament en pharmacie</li>
-                <li>Des retards de livraison liés à des circonstances extérieures (trafic, météo)</li>
-                <li>De l'utilisation inappropriée de médicaments par l'utilisateur</li>
+                <li>Les médicaments proposés proviennent exclusivement de pharmacies partenaires agréées.</li>
+                <li>Certains médicaments sont délivrés uniquement sur présentation d'une ordonnance médicale valide.</li>
+                <li>DRL NEGOCE SARL se réserve le droit de refuser toute commande non conforme à la réglementation pharmaceutique en vigueur.</li>
             </ul>
-            <p>La responsabilité pharmaceutique (conformité des médicaments, conseil) incombe aux pharmacies partenaires.</p>
 
-            <h2 id="propriete">9. Propriété intellectuelle</h2>
-            <p>L'ensemble des éléments de la plateforme (design, logo, code, contenu) est la propriété exclusive de DR-PHARMA et est protégé par le droit de la propriété intellectuelle. Toute reproduction ou utilisation non autorisée est interdite.</p>
-
-            <h2 id="resiliation">10. Résiliation</h2>
-            <p>L'utilisateur peut supprimer son compte à tout moment depuis l'application ou en contactant le support. DR-PHARMA se réserve le droit de suspendre ou supprimer un compte en cas de violation des présentes CGU, sans préavis ni indemnité.</p>
-
-            <h2 id="litiges">11. Litiges</h2>
-            <p>Les présentes CGU sont régies par le droit ivoirien. En cas de litige, les parties s'engagent à rechercher une solution amiable. À défaut, les tribunaux d'Abidjan seront seuls compétents.</p>
-
-            <h2 id="cgu-contact">12. Contact</h2>
-            <p>Pour toute question relative aux présentes CGU :</p>
+            <h2 id="livraison">7. Livraison</h2>
             <ul>
-                <li>Email : <a href="mailto:contact@drlpharma.com">contact@drlpharma.com</a></li>
-                <li>Téléphone : +225 07 79 00 00 00</li>
-                <li>Adresse : Abidjan, Côte d'Ivoire</li>
+                <li>La livraison est assurée par des livreurs partenaires indépendants.</li>
+                <li>Les délais indiqués sont estimatifs et peuvent varier selon la disponibilité, la circulation ou des cas de force majeure.</li>
+                <li>DRL NEGOCE SARL ne peut être tenue responsable des retards indépendants de sa volonté.</li>
             </ul>
+
+            <h2 id="prix">8. Prix et paiement</h2>
+            <ul>
+                <li>Les prix des médicaments sont fixés par les pharmacies partenaires.</li>
+                <li>Les frais de livraison sont clairement indiqués avant validation de la commande.</li>
+                <li>Le paiement est effectué via les moyens proposés sur l'application.</li>
+            </ul>
+
+            <h2 id="responsabilites">9. Responsabilités et avertissement médical</h2>
+            <ul>
+                <li>DR PHARMA ne fournit aucun conseil médical.</li>
+                <li>DRL NEGOCE SARL ne peut être tenue responsable d'une mauvaise utilisation des médicaments ou de l'automédication.</li>
+                <li>L'utilisateur est invité à consulter un professionnel de santé avant toute prise de médicament.</li>
+            </ul>
+
+            <h2 id="suspension">10. Suspension ou suppression de compte</h2>
+            <p>DRL NEGOCE SARL se réserve le droit de suspendre ou supprimer un compte en cas :</p>
+            <ul>
+                <li>de violation des présentes CGU,</li>
+                <li>de fraude ou tentative de fraude,</li>
+                <li>de comportement contraire aux lois en vigueur.</li>
+            </ul>
+
+            <h2 id="disponibilite">11. Disponibilité du service</h2>
+            <p>DR PHARMA peut être temporairement indisponible pour maintenance, mise à jour ou en cas de problème technique.</p>
+            <p>Aucune indemnisation ne pourra être exigée à ce titre.</p>
+
+            <h2 id="modification">12. Modification des conditions</h2>
+            <p>DRL NEGOCE SARL se réserve le droit de modifier les présentes CGU à tout moment.</p>
+            <p>Les utilisateurs seront informés via l'application.</p>
+
+            <h2 id="droit">13. Droit applicable et juridiction</h2>
+            <p>Les présentes CGU sont régies par les lois en vigueur en République de Côte d'Ivoire.</p>
+            <p>Tout litige relève des juridictions compétentes ivoiriennes.</p>
 
         </div>
     </section>
 
     <footer class="footer-mini">
-        <div class="container">© {{ date('Y') }} DR-PHARMA. Tous droits réservés.</div>
+        <div class="container">© {{ date('Y') }} DR PHARMA — DRL NEGOCE SARL. Tous droits réservés.</div>
     </footer>
 </body>
 </html>
