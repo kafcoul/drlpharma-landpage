@@ -114,6 +114,23 @@ Route::get('/', function () {
     return view('welcome', compact('landing'));
 });
 
+// Pages statiques
+Route::get('/aide', function () {
+    return view('pages.aide');
+})->name('aide');
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+})->name('contact');
+
+Route::get('/confidentialite', function () {
+    return view('pages.confidentialite');
+})->name('confidentialite');
+
+Route::get('/cgu', function () {
+    return view('pages.cgu');
+})->name('cgu');
+
 // Routes pour servir les documents privés (admin uniquement)
 // Ces routes doivent être APRÈS le middleware web mais AVANT les routes Filament
 Route::middleware(['web'])->prefix('admin/documents')->group(function () {

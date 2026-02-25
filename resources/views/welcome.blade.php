@@ -2296,10 +2296,10 @@
                 <div class="footer-col">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Confidentialité</a></li>
-                        <li><a href="#">CGU</a></li>
+                        <li><a href="/aide">Centre d'aide</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/confidentialite">Confidentialité</a></li>
+                        <li><a href="/cgu">CGU</a></li>
                     </ul>
                 </div>
             </div>
